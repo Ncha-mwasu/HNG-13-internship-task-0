@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testable Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <article data-testid="test-profile-card" class="profile-card">
+    <div class="left-section">
+      <figure>
+        <img src="images/profile_img.png" alt="User Avatar" data-testid="test-user-avatar" class="profile-image">
+        <figcaption data-testid="test-user-name">Ncha-mwasu Elisha</figcaption>
+      </figure>
+      
+      <p class="timestamp">Time: <span data-testid="test-user-time" id="time"></span></p>
+
+      <nav>
+        <ul data-testid="test-user-social-links" class="social-links">
+          <li data-testid="test-user-social-instagram"><a href="https://www.instagram.com/e_nchamwasu/" target="_blank" rel="noopener noreferrer"><img src="images/icons/instagram.svg" alt=""></a></li>
+          <li><a data-testid="test-user-social-twitter" href="https://x.com/MwasuNcha" target="_blank" rel="noopener noreferrer"><img src="images/icons/brand-x.svg" alt=""></a></li>
+          <li><a data-testid="test-user-social-linkedIn" href="www.linkedin.com/in/ncha-mwasu-elisha-7ba758237" target="_blank" rel="noopener noreferrer"><img src="images/icons/github.svg" alt=""></a></li>
+          <li data-testid="test-user-social-github"><a href="https://github.com/Ncha-mwasu" target="_blank" rel="noopener noreferrer"><img src="images/icons/social-linkedin.svg" alt=""></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="right-section">
+      <p data-testid="test-user-bio" class="bio">
+        Vanilla JavaScript is the foundation of modern web development. It allows you to build web applications without relying on any external libraries or frameworks, offering greater control and performance. While it requires more manual effort for certain tasks, understanding and using Vanilla JavaScript helps you gain a deeper understanding of the language and its core features.
+      </p>
+
+      <div class="hobbies-dislikes">
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies" class="tags">
+            <li>Reading manga</li>
+            <li>Reading books</li>
+            <li>Tech Reviews</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes" class="tags">
+            <li>Being late</li>
+            <li>Dishonesty</li>
+            <li>Lack of Motivation</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </article>
+
+  <footer>TEST PROFILE CARD</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
