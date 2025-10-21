@@ -1,6 +1,6 @@
 # 🌟 Profile Card - Ncha-mwasu Elisha
 
-![Profile Card Preview](./preview.png)
+![Profile Card Preview](./images/preview.png)
 
 > A visually appealing **Profile Card** built with **HTML5** and **CSS3**, showcasing essential information, social links, and interests in a clean and modern layout.  
 
